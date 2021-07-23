@@ -1,2 +1,4 @@
 # Recursive-Split
-# Made by Robert Larca
+Useful for generating many files to narrow scope of text analysis
+
+Made by Robert Larca
