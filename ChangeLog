@@ -1,0 +1,4 @@
+7/26/2021-
+Added a check to make sure the input depth is not greater than the maximum depth, this is helpful because if someone accidentally typed "44" instead of 4  1.7592186e+13
+ empty files would be created as fast as python could manage.
+ Changed the @ symbol to @RecSplit@ so that the @ symbol can be used in other algorithms while retaining a creator identity
