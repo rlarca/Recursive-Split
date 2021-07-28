@@ -48,7 +48,7 @@ with open(filename, 'w') as fp:
         fp.write(fLines[i])
         i += 1
     pass
-#math solution for finding mathmatically the highest possible level of depth without esceeding the number of lines in the source file, the mathematical solution is diving the natural log of depth by the natural log of 2
+#math solution for finding mathmatically the highest possible level of depth without esceeding the number of lines in the source file, the mathematical solution is diving the natural log of depth by the natural log of 2. Solution contributed by Rachel Griffith
 maximumDepth = int(math.log(fLength)/math.log(2))
 print("How many recursive splits would you like to perform? there are " + str(fLength) + " lines in total. Keep in mind this will result in 2 ^ (splits + 1) documents, with 2 ^ (splits) files of the final depth. the maximum possible depth is: "+str(maximumDepth) )
 splitsLeft = input()
